@@ -9,7 +9,7 @@ const Chat = () => {
     const [users, setUsers] = useState([]);
     const [message, setMessage] = useState("");
     const [messages, setMessages] = useState([]);
-    const socketUrl = 'https://chatapp-backend-huca.onrender.com'
+    const socketUrl = 'https://chatapp-backend-sooz.onrender.com/'
 
     useEffect(() => {
         const search = window.location.search;
